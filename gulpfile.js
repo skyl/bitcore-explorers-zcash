@@ -2,5 +2,5 @@
 
 var build = require('bitcore-build');
 
-build('explorers');
+build('explorers-zcash');
 

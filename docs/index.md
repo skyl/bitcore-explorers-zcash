@@ -1,31 +1,31 @@
 # Explorers
-The `bitcore-explorers` module provides a convenient interface to retrieve unspent transaction outputs and broadcast transactions to the Bitcoin network via blockchain explorers.
+The `bitcore-explorers-zcash` module provides a convenient interface to retrieve unspent transaction outputs and broadcast transactions to the Zcash network via blockchain explorers.
 
-## Installation
+## Installation (TODO)
 Explorers is implemented as a separate module.
 
 For node projects:
 
 ```
-npm install bitcore-explorers --save
+npm install bitcore-explorers-zcash --save
 ```
 
 For client-side projects:
 
 ```
-bower install bitcore-explorers --save
+bower install bitcore-explorers-zcash --save
 ```
 
 ## Insight
 ### Description
-`Insight` is a simple agent to perform queries to an Insight blockchain explorer. The default servers are `https://insight.bitpay.com` and `https://test-insight.bitpay.com`, hosted by BitPay Inc. You can (and we strongly suggest you do) run your own insight server. For more information, head to [https://github.com/bitpay/insight-api](https://github.com/bitpay/insight-api)
+`Insight` is a simple agent to perform queries to an Insight blockchain explorer. The default server is: https://explorer.testnet.z.cash/. Run your own server: https://github.com/str4d/insight-api-zcash.
 
 There are currently two methods implemented: `getUnspentUtxos` and `broadcast`. The API will grow as features are requested.
 
 #### Retrieving Unspent UTXOs for an Address (or set of)
 
 ```javascript
-var Insight = require('bitcore-explorers').Insight;
+var Insight = require('bitcore-explorers-zcash').Insight;
 var insight = new Insight();
 
 insight.getUnspentUtxos('1Bitcoin...', function(err, utxos) {

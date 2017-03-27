@@ -3,6 +3,8 @@ coverage
 node_modules
 bitcore-explorers.js
 bitcore-explorers.min.js
+bitcore-explorers-zcash.js
+bitcore-explorers-zcash.min.js
 
 lib/errors/index.js
 npm-debug.log

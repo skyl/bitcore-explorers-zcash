@@ -1,8 +1,8 @@
 {
-  "name": "bitcore-explorers",
+  "name": "bitcore-explorers-zcash",
   "main": "/bitcore-explorers.min.js",
   "version": "1.0.1",
-  "homepage": "https://github.com/bitpay/bitcore-explorers",
+  "homepage": "https://github.com/skyl/bitcore-explorers-zcash",
   "authors": [
     "BitPay"
   ],
@@ -11,6 +11,7 @@
     "globals"
   ],
   "keywords": [
+    "zcash",
     "bitcoin",
     "bitcore",
     "btc",

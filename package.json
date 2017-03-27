@@ -1,5 +1,5 @@
 {
-  "name": "bitcore-explorers",
+  "name": "bitcore-explorers-zcash",
   "version": "1.0.1",
   "description": "Module to query blockchain apis for Bitcore.",
   "main": "index.js",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bitpay/bitcore-explorers.git"
+    "url": "https://github.com/skyl/bitcore-explorers-zcash.git"
   },
   "keywords": [
     "bitcoin",
@@ -22,7 +22,7 @@
   "author": "BitPay",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bitpay/bitcore-explorers/issues"
+    "url": "https://github.com/skyl/bitcore-explorers-zcash/issues"
   },
   "browser": {
     "request": "browser-request"
@@ -37,7 +37,7 @@
     "sinon": "^1.12.2"
   },
   "dependencies": {
-    "bitcore-lib": "^0.13.14",
+    "bitcore-lib": "str4d/bitcore-lib-zcash",
     "browser-request": "^0.3.3",
     "request": "^2.51.0"
   }
